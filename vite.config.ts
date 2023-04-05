@@ -5,6 +5,7 @@ import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), cssInjectedByJsPlugin()],
+  base: '/test-host/',
   build: {
     cssCodeSplit: false,
     rollupOptions: {
