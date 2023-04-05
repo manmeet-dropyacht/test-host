@@ -11,10 +11,10 @@ export default defineConfig({
       input: {
         app: './src/main.tsx',
       },
-      output: {
-        entryFileNames: 'assets/dypops.js',
-        assetFileNames: 'assets/dypops.[ext]',
-      },
+      // output: {
+      //   entryFileNames: 'assets/dypops.js',
+      //   assetFileNames: 'assets/dypops.[ext]',
+      // },
     },
   },
 })
