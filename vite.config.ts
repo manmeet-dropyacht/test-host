@@ -9,9 +9,9 @@ export default defineConfig({
   build: {
     cssCodeSplit: false,
     rollupOptions: {
-      input: {
-        app: './src/main.tsx',
-      },
+      // input: {
+      //   app: './src/main.tsx',
+      // },
       // output: {
       //   entryFileNames: 'assets/dypops.js',
       //   assetFileNames: 'assets/dypops.[ext]',
